@@ -1,3 +1,20 @@
+*{
+  box-sizing:border-box;
+}
+
+@media(max-width:1000px){
+  		.item{
+    		width:50%;
+  		}
+	}
+
+@media(max-width:670px){
+  		.item{
+    		width:100%;
+    		padding: 0 15px;
+    		}
+	}	
+
 li{
 		list-style: none;
 	}
@@ -20,7 +37,7 @@ li{
 	}
 
 	.top-wrapper{
-		padding: 100px 0 100px 0;
+		width:100%;
 		background-image: url(https://github.com/onigiriak/onigiriak.github.io/blob/main/24318653_s.jpg?raw=true);
 		background-size: cover;
 		object-fit: cover;
